@@ -5,7 +5,7 @@ print(x,y)"""
 
 #iterations allow us to scroll through the 
 #values while printing the variables itself does the entire thing
-values = [1,2.23,5,7,2,30,15]
+"""values = [1,2.23,5,7,2,30,15]"""
 """print(values)
 for i in values:
     print(i)"""
@@ -21,4 +21,9 @@ print(y)
 print(z)
 #split is basically what we did for the integer values where it takes one word from the string.
 
+ask = input("put in a sentence!")
+splity = ask.split()
+values = ask[]
 
+for i in ask:
+    print(values)
