@@ -1,0 +1,1 @@
+def(first verb, second verb, noun, number, celebrity )):

@@ -14,16 +14,18 @@ for i in values:
 """print(values[7])"""
 
 #strings are individual letters that make up a word.
-x = "this is a thing"
+"""x = "this is a thing"
 y = x.split()
 z = y[0]
 print(y)
-print(z)
+print(z)"""
 #split is basically what we did for the integer values where it takes one word from the string.
 
 ask = input("put in a sentence!")
-splity = ask.split()
-values = ask[]
 
-for i in ask:
-    print(values)
+
+def wordcount(sentence):
+    splity = ask.split()
+    return len(splity)
+
+print (wordcount(ask))
