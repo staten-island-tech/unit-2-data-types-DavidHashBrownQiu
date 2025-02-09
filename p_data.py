@@ -21,11 +21,21 @@ print(y)
 print(z)"""
 #split is basically what we did for the integer values where it takes one word from the string.
 
-ask = input("put in a sentence!")
-
+#below is for the challenge of counting the values in a sentence.
+"""ask = input("put in a sentence!")
 
 def wordcount(sentence):
-    splity = ask.split()
+    splity = sentence.split()
     return len(splity)
 
-print (wordcount(ask))
+print (wordcount(ask))"""
+
+number = int(input("Pick a number! Any number: "))
+
+def odd_even(x):
+    if x % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+odd_even(number)
