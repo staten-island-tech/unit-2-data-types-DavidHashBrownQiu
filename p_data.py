@@ -30,7 +30,7 @@ def wordcount(sentence):
 
 print (wordcount(ask))"""
 
-number = int(input("Pick a number! Any number: "))
+"""number = int(input("Pick a number! Any number: "))
 
 def odd_even(x):
     if x % 2 == 0:
@@ -38,4 +38,7 @@ def odd_even(x):
     else:
         print("Odd")
 
-odd_even(number)
+odd_even(number)"""
+
+x = "test"
+print(f"hello {x}")
