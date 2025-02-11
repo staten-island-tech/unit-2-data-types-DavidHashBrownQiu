@@ -40,5 +40,36 @@ def odd_even(x):
 
 odd_even(number)"""
 
-x = "test"
-print(f"hello {x}")
+"""x = "test"
+print(f"hello {x}")"""
+
+ask = input("How was your service? Bad, okay, good, or great?")
+billdollas = float(input("What was the bill again?"))
+
+def bill(question, bill):
+
+    if question == "Bad":
+        print("Thank you for your feedback!")
+    elif question == "Okay":
+        tip = input("Would you like to tip?")
+        if tip == "Yes":
+            bill = bill*1.15
+            print(f"That would be {bill}")
+        else:
+            print(f"Alright! That would be {bill}")
+    elif question == "Good":
+        tip = input("Would you like to tip?")
+        if tip == "Yes":
+            bill = bill*1.20
+            print(f"That would be {bill}")
+        else:
+            print(f"Alright! That would be {bill}")
+    elif question == "Great":
+        tip = input("Would you like to tip?")
+        if tip == "Yes":
+            bill = bill*1.25
+            print(f"That would be {bill}")
+        else:
+            print(f"Alright! That would be {bill}")
+
+bill(ask, billdollas)
