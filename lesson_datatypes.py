@@ -5,7 +5,7 @@
 #age: 20
 
 #Floats represent decimals
-#wallet = 5000000000000000
+#wallet = 5000000.000000000
 
 #boolean represents true or false, used in evaluations
 #graduated = False
